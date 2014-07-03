@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+<style>
+  body {
+    font-family: Helvetica, Arial, Sans-Serif;
+    width: 800px;
+    height: 100%;
+    border: dashed;
+    margin: 0 auto;
+  }
+  h3 {
+    background-color: #FFFFFF;
+    text-align: center;
+  }
+  #property-info {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    background: #DAE1EA;
+  }
+
+  .main-box {
+    -webkit-box-flex: 3 0px;
+    -moz-box-flex: 3 0px;
+    -webkit-flex: 3 0px;
+    -ms-flex: 3 0px;
+    flex: 3 auto;
+    text-align: left;
+  }
+  .small-box {
+    flex: 1 auto;
+    text-align: right;
+    margin-right: 30px;
+  }
+  #property-info ul {
+    list-style: none;
+  }
+  #property-info div {
+    display: inline-block;
+    width: 130px;
+    font-weight: bold;
+  }
+  #payment-section {
+    padding: 10px 0px;
+  }
+  .Barchart .label {
+    font-size: 12px;
+  }
+  .Barchart .ylabels .tick line {
+    fill: none;
+    stroke: #222;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+  }
+  .Barchart path.domain {
+    fill: none;
+    stroke: #222;
+    stroke-width: 1px;
+    shape-rendering: crispEdges;
+  }
+  .Barchart .bars rect.bar {
+    fill: #009154;
+  }
+  label {
+    display: flex;
+    justify-content: center;
+  }
+  #outstanding {
+    color: red;
+  }
+</style>
+</head>
+<body>
+  <h3></h3>
+  <section id="property-info">
+    <article class="main-box">
+      <ul>
+        <li> <div> Tenants: </div>
+          <span class="text">  </span></li>
+        <li> <div> Property Owner: </div>
+          <span class="text"> Alyssa Quek </span></li>
+        <li> <div> Contract Period: </div>
+          <span class="text"> </span></li>
+      </ul>
+    </article>
+    <aside class="small-box">
+      <ul>
+        <li id="date-today"></li>
+      </ul>
+    </aside>
+  </section>
+  <section id="payment-section">
+    <label>Weekly Received Payment. Minimum required:&nbsp;<b> $800</b> </label>
+    <div id="payment-chart"></div>
+  </section>
+  <label id="breakdown-section">
+    <h1 id="outstanding"> Amount Outstanding: $29,344.59</h1>
+  </label>
+  <script type="text/javascript">
+    reportText = {
+      title: 'Report for <Property Address>',
+      info: [
+        'Tom & Jerry',
+        '',
+        '01 Dec 2012 - 01 Dec 2014'
+      ]
+    }
+    window.$ = function(s) {
+      return document[s[0] === '#' ? 'querySelector' : 'querySelectorAll'](s)
+    };
+    $('h3')[0].innerText = reportText.title
+    $('#date-today').innerText = new Date().toLocaleDateString('en-GB',
+      {year: 'numeric', month: 'long', day: 'numeric'})
+    textNodeList = $('.text')
+    Array.prototype.slice.call(textNodeList).forEach(function(text, i) {
+      textNodeList[i].innerText = reportText.info[i] || textNodeList[i].innerText;
+    })
+  </script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="js/d3.chart.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+  <script src="chart.js"></script>
+</body>
+</html>
