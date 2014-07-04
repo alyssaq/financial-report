@@ -1,0 +1,71 @@
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+  width: 800px;
+  height: 100%;
+  border: dashed;
+  margin: 0 auto;
+}
+h3 {
+  background-color: #FFFFFF;
+  text-align: center;
+}
+#property-info {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  background: #DAE1EA;
+}
+
+.main-box {
+  -webkit-box-flex: 3 0px;
+  -moz-box-flex: 3 0px;
+  -webkit-flex: 3 0px;
+  -ms-flex: 3 0px;
+  flex: 3 auto;
+  text-align: left;
+}
+.small-box {
+  flex: 1 auto;
+  text-align: right;
+  margin-right: 30px;
+}
+#property-info ul {
+  list-style: none;
+}
+#property-info div {
+  display: inline-block;
+  width: 130px;
+  font-weight: bold;
+}
+#payment-section {
+  padding: 10px 0px;
+}
+.Barchart .label {
+  font-size: 12px;
+}
+.Barchart .ylabels .tick line {
+  fill: none;
+  stroke: #222;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.Barchart path.domain {
+  fill: none;
+  stroke: #222;
+  stroke-width: 1px;
+  shape-rendering: crispEdges;
+}
+.Barchart .bars rect.bar {
+  fill: #009154;
+}
+label {
+  display: flex;
+  justify-content: center;
+}
+#outstanding {
+  color: red;
+}
