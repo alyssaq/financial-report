@@ -285,14 +285,14 @@
         return data.map(function (d) {
           return {
             name: d.end,
-            value: d.amount
+            value: d.paid
           };
         });
       }
     })
     .height(200)
     .width(800)
-    .max(2100);
+    .max(2500);
 
   microAjax('data.json', function(data) {
     numElems = 16;
