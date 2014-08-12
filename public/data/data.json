@@ -1,0 +1,447 @@
+[
+  {
+    "start": "02-Dec", 
+    "end": "08-Dec", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "09-Dec", 
+    "end": "15-Dec", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "16-Dec", 
+    "end": "22-Dec", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "23-Dec", 
+    "end": "29-Dec", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "30-Dec", 
+    "end": "05-Jan", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "06-Jan", 
+    "end": "12-Jan", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "13-Jan", 
+    "end": "19-Jan", 
+    "paid": 1600.0
+  }, 
+  {
+    "start": "20-Jan", 
+    "end": "26-Jan", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "27-Jan", 
+    "end": "02-Feb", 
+    "paid": 1000.0
+  }, 
+  {
+    "start": "03-Feb", 
+    "end": "09-Feb", 
+    "paid": 500.0
+  }, 
+  {
+    "start": "10-Feb", 
+    "end": "16-Feb", 
+    "paid": 1000.0
+  }, 
+  {
+    "start": "17-Feb", 
+    "end": "23-Feb", 
+    "paid": 600.0
+  }, 
+  {
+    "start": "24-Feb", 
+    "end": "02-Mar", 
+    "paid": 400.0
+  }, 
+  {
+    "start": "03-Mar", 
+    "end": "09-Mar", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "10-Mar", 
+    "end": "16-Mar", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "17-Mar", 
+    "end": "23-Mar", 
+    "paid": 600.0
+  }, 
+  {
+    "start": "24-Mar", 
+    "end": "30-Mar", 
+    "paid": 200.0
+  }, 
+  {
+    "start": "31-Mar", 
+    "end": "06-Apr", 
+    "paid": 350.0
+  }, 
+  {
+    "start": "07-Apr", 
+    "end": "13-Apr", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "14-Apr", 
+    "end": "20-Apr", 
+    "paid": 700.0
+  }, 
+  {
+    "start": "21-Apr", 
+    "end": "27-Apr", 
+    "paid": 400.0
+  }, 
+  {
+    "start": "28-Apr", 
+    "end": "04-May", 
+    "paid": 650.0
+  }, 
+  {
+    "start": "05-May", 
+    "end": "11-May", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "12-May", 
+    "end": "18-May", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "19-May", 
+    "end": "25-May", 
+    "paid": 550.0
+  }, 
+  {
+    "start": "26-May", 
+    "end": "01-Jun", 
+    "paid": 650.0
+  }, 
+  {
+    "start": "02-Jun", 
+    "end": "08-Jun", 
+    "paid": 750.0
+  }, 
+  {
+    "start": "09-Jun", 
+    "end": "15-Jun", 
+    "paid": 200.0
+  }, 
+  {
+    "start": "16-Jun", 
+    "end": "22-Jun", 
+    "paid": 400.0
+  }, 
+  {
+    "start": "23-Jun", 
+    "end": "29-Jun", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "30-Jun", 
+    "end": "06-Jul", 
+    "paid": 350.0
+  }, 
+  {
+    "start": "07-Jul", 
+    "end": "13-Jul", 
+    "paid": 700.0
+  }, 
+  {
+    "start": "14-Jul", 
+    "end": "20-Jul", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "21-Jul", 
+    "end": "27-Jul", 
+    "paid": 750.0
+  }, 
+  {
+    "start": "28-Jul", 
+    "end": "03-Aug", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "04-Aug", 
+    "end": "10-Aug", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "11-Aug", 
+    "end": "17-Aug", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "18-Aug", 
+    "end": "24-Aug", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "25-Aug", 
+    "end": "31-Aug", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "01-Sep", 
+    "end": "07-Sep", 
+    "paid": 900.0
+  }, 
+  {
+    "start": "08-Sep", 
+    "end": "14-Sep", 
+    "paid": 900.0
+  }, 
+  {
+    "start": "15-Sep", 
+    "end": "21-Sep", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "22-Sep", 
+    "end": "28-Sep", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "29-Sep", 
+    "end": "05-Oct", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "06-Oct", 
+    "end": "12-Oct", 
+    "paid": 1200.0
+  }, 
+  {
+    "start": "13-Oct", 
+    "end": "19-Oct", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "20-Oct", 
+    "end": "26-Oct", 
+    "paid": 600.0
+  }, 
+  {
+    "start": "27-Oct", 
+    "end": "02-Nov", 
+    "paid": 300.0
+  }, 
+  {
+    "start": "03-Nov", 
+    "end": "09-Nov", 
+    "paid": 500.0
+  }, 
+  {
+    "start": "10-Nov", 
+    "end": "16-Nov", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "17-Nov", 
+    "end": "23-Nov", 
+    "paid": 600.0
+  }, 
+  {
+    "start": "24-Nov", 
+    "end": "30-Nov", 
+    "paid": 1300.0
+  }, 
+  {
+    "start": "01-Dec", 
+    "end": "07-Dec", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "08-Dec", 
+    "end": "14-Dec", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "15-Dec", 
+    "end": "21-Dec", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "22-Dec", 
+    "end": "28-Dec", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "29-Dec", 
+    "end": "04-Jan", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "05-Jan", 
+    "end": "11-Jan", 
+    "paid": 900.0
+  }, 
+  {
+    "start": "12-Jan", 
+    "end": "18-Jan", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "19-Jan", 
+    "end": "25-Jan", 
+    "paid": 750.0
+  }, 
+  {
+    "start": "26-Jan", 
+    "end": "01-Feb", 
+    "paid": 1700.0
+  }, 
+  {
+    "start": "02-Feb", 
+    "end": "08-Feb", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "09-Feb", 
+    "end": "15-Feb", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "16-Feb", 
+    "end": "22-Feb", 
+    "paid": 1400.0
+  }, 
+  {
+    "start": "23-Feb", 
+    "end": "01-Mar", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "02-Mar", 
+    "end": "08-Mar", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "09-Mar", 
+    "end": "15-Mar", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "16-Mar", 
+    "end": "22-Mar", 
+    "paid": 700.0
+  }, 
+  {
+    "start": "23-Mar", 
+    "end": "29-Mar", 
+    "paid": 700.0
+  }, 
+  {
+    "start": "30-Mar", 
+    "end": "05-Apr", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "06-Apr", 
+    "end": "12-Apr", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "13-Apr", 
+    "end": "19-Apr", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "20-Apr", 
+    "end": "26-Apr", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "27-Apr", 
+    "end": "03-May", 
+    "paid": 500.0
+  }, 
+  {
+    "start": "04-May", 
+    "end": "10-May", 
+    "paid": 1300.0
+  }, 
+  {
+    "start": "11-May", 
+    "end": "17-May", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "18-May", 
+    "end": "24-May", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "25-May", 
+    "end": "31-May", 
+    "paid": 500.0
+  }, 
+  {
+    "start": "01-Jun", 
+    "end": "07-Jun", 
+    "paid": 400.0
+  }, 
+  {
+    "start": "08-Jun", 
+    "end": "14-Jun", 
+    "paid": 400.0
+  }, 
+  {
+    "start": "15-Jun", 
+    "end": "21-Jun", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "22-Jun", 
+    "end": "28-Jun", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "29-Jun", 
+    "end": "05-Jul", 
+    "paid": 2400.0
+  }, 
+  {
+    "start": "06-Jul", 
+    "end": "12-Jul", 
+    "paid": 800.0
+  }, 
+  {
+    "start": "13-Jul", 
+    "end": "19-Jul", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "20-Jul", 
+    "end": "26-Jul", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "27-Jul", 
+    "end": "02-Aug", 
+    "paid": 1600.0
+  }, 
+  {
+    "start": "03-Aug", 
+    "end": "09-Aug", 
+    "paid": 0.0
+  }, 
+  {
+    "start": "10-Aug", 
+    "end": "16-Aug", 
+    "paid": 700.0
+  }
+]

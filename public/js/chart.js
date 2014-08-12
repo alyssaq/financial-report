@@ -14,6 +14,8 @@
  */
 ;
 (function (d3, microAjax) {
+  var minPayable = 800;
+
   d3.chart('BarChart', {
 
     initialize: function () {
@@ -111,7 +113,7 @@
           var yAxis = d3.svg.axis()
             .scale(chart.y)
             .orient('left')
-            .ticks(4)
+            .ticks(3)
             .tickFormat(d3.format("d"));
 
           chart.areas.ylabels
@@ -186,12 +188,12 @@
         insert: function () {
           return this.append('text')
             .style('fill', function (d) {
-              if (d.value < 800) {
+              if (d.value < minPayable) {
                 return 'red'
               }
             })
             .style('font-weight', function (d) {
-              if (d.value < 800) {
+              if (d.value < minPayable) {
                 return 'bold'
               }
             })
@@ -290,13 +292,39 @@
         });
       }
     })
-    .height(200)
+    .height(120)
     .width(800)
-    .max(2500);
+    .max(1000);
 
-  microAjax('data.json', function(data) {
+  microAjax('data/data.json', function(data) {
     numElems = 16;
-    data = JSON.parse(data);
+    data = flattenData(JSON.parse(data));
+    //data = JSON.parse(data);
     barchart.draw(data.slice(data.length - numElems));
-  })
+  });
+
+  function flattenData(data) {
+    var overPaidIdx = -1;
+    var numFilled = 0;
+    data.reverse().forEach(function (row, i) {
+      if (row.paid > minPayable) {
+        overPaidIdx = i;
+        numFilled++;
+      } else if (i === overPaidIdx + numFilled
+        && data[overPaidIdx].paid > minPayable
+        && row.paid < minPayable) {
+        var excess = data[overPaidIdx].paid - minPayable;
+        var topUp = minPayable - row.paid;
+        topUp = excess > topUp ? topUp : excess
+        data[overPaidIdx].paid -= topUp;
+        row.paid += topUp;
+        numFilled++;
+      } else {
+        overPaidIdx = -1;
+        numFilled = 0;
+      }
+    });
+    data.reverse();
+    return data;
+  }
 })(d3, microAjax);
